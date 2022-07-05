@@ -1,0 +1,61 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    color: gray;
+    margin: 0;
+    padding: 0;
+}
+
+.flixible-part {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.orange-color {
+    color: orange;
+}
+
+.left-helf {
+    width: 40%;
+    margin: 3%;
+    padding: 3%;
+}
+
+.link-button {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(orange, salmon);
+    border-radius: 10px;
+    padding: 10px 35px;
+}
+
+.right-helf img {
+    width: 100%;
+    text-align: center;
+}
+
+.middle-left {
+    width: 50%;
+}
+
+.middle-left img {
+    width: 80%;
+    margin-left: 5%;
+    padding-left: 5%;
+}
+
+.middle-right {
+    width: 50%;
+    margin: 5%;
+    padding: 5%;
+    margin-top: 0;
+}
+
+.middle-section {
+    background-image: url("./images/7.png");
+    background-repeat: no-repeat;
+}
