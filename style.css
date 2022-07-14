@@ -15,6 +15,10 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 30px;
+}
+
 .orange-color {
     color: orange;
 }
@@ -58,4 +62,51 @@ h1 {
 .middle-section {
     background-image: url("./images/7.png");
     background-repeat: no-repeat;
+}
+
+.manu-description {
+    text-align: center;
+}
+
+.manu-description p {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.bottom-left,
+.bottom-right {
+    width: 35%;
+    margin: 5%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 25px grey;
+    padding: 3%;
+}
+
+.recipe-img img {
+    width: 100%;
+}
+
+.follower-area {
+    display: flex;
+    box-shadow: 10px 10px 25px grey;
+    width: 80%;
+    border-radius: 25px;
+    margin: 5%;
+    padding: 3%;
+    margin: 0 auto;
+}
+
+.follower-area div {
+    margin: 0 auto;
+}
+
+.follower-area div h2 {
+    color: #db3737;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #131010;
+    text-align: center;
+    padding: 1%;
 }
